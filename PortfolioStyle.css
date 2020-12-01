@@ -1,0 +1,98 @@
+.MainContainer{
+  height: 100vh;
+  width: 100vw;
+  display:flex;
+  justify-content: center
+}
+.ContainerWrapper{
+  display:flex;
+  justify-content:flex-start;
+  flex-direction: column;
+  width:1800px;
+  height:900px;
+  background-color:rgb(99, 98, 98);
+  margin-top:50px;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 8px;
+
+}
+.Container-header{
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between
+}
+
+.Text1{
+  height:50px;
+  width: 100px;
+  background-color: rgb(30, 130, 197);
+  display:flex;
+  justify-content:center;
+  margin-bottom: 10px;
+}
+.Text2{
+  color:white;
+  display: flex;
+  font-weight: lighter;
+}
+
+.iconWrapper{
+
+  display:flex;
+  justify-content:flex-end;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-right:20px;
+}
+.body2{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-evenly
+  
+  
+}
+.textbox{
+  margin-top:300px;
+  color: white;
+  margin-left: 50px;
+  letter-spacing: 5px;
+}
+.picturewrapper{
+  margin-top: 120px;
+  height: 500px;
+  width:500px;
+  background-color:white;
+  border-radius: 300px;
+  
+}
+
+.TEXT3{
+  margin-top:150px;
+  letter-spacing: 20px;
+  font-weight: lighter;
+  opacity: 10%;
+}
+.footer{
+  display:flex;
+  justify-content: space-between;
+}
+.footertext{
+  display:flex;
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 30px;
+  text-decoration: none;
+}
+.Namewrapper{
+  margin-right: 150px;
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 10px;
+}
+.imageWrapper{
+  margin-top:60px;
+}
+.link{
+  text-decoration: none;
+}
